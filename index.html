@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: bisque;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #4c5baf;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #6f45a0;
+        }
+        h1{
+            font-size: 33;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: black;
+        }
+        a {
+            font-size: 24px;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #6a4caf;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #9d45a0;
+        }
+
+    </style>
+</head>
+<body>
+    <marquee bahavior="scroll" direction="left" ><img src="https://w.wallhaven.cc/full/j5/wallhaven-j5mj3w.png" width="300" height="200"></marquee>
+
+    <h1>PIA</h1>
+
+    <div class="button-container">
+        <a href="EV_E1.html" target="_blank">EVIDENCIA Etapa 1</a>
+        <a href="EV_E2.html" target="_blank">EVIDENCIA Etapa 2</a>
+        <a href="EV_E3.html" target="_blank">EVIDENCIA Etapa 3</a>
+        <a href="EV_E4.html" target="_blank">EVIDENCIA Etapa 4</a>
+    </div>
+
+</body>
+</html>
